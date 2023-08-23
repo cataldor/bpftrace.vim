@@ -134,6 +134,19 @@ syntax keyword bpftraceProbeType
       \ watchpoint
       \ asyncwatchpoint
 
+syntax keyword bpftraceCast
+      \ uint8
+      \ int8
+      \ uint16
+      \ int16
+      \ uint32
+      \ int32
+      \ uint64
+      \ int64
+      \ struct
+
+
+
 " From c.vim
 syntax region bpftraceIncluded display contained start=+"+ skip=+\\\\\|\\"+ end=+"+
 syntax match  bpftraceIncluded  display contained "<[^>]*>"
@@ -168,6 +181,7 @@ highlight default link bpftraceConditionals Conditional
 highlight default link bpftraceRepeats Repeat
 highlight default link bpftraceKeywords Keyword
 highlight default link bpftracePositionalParameters Keyword
+highlight default link bpftraceCast Keyword
 highlight default link bpftraceBuiltinFunctions Function
 
 highlight default link bpftraceMaps Identifier

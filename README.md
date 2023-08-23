@@ -10,5 +10,5 @@ Install using your plugin manager of preference.
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
-1. Add `Plug 'mmarchini/bpftrace.vim'` to `~/.vimrc`
+1. Add `Plug 'cataldor/bpftrace.vim'` to `~/.vimrc`
 2. `vim +PlugInstall`
